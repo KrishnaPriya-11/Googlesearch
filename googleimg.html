@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>Google</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+.icon 
+	{
+		 padding: 10px;
+    	 background: dodgerblue;
+		 color: white;
+		 min-width: 50px;
+		 text-align: center;
+	}
+			.inputfield { 
+			 
+				width:50%;
+				position: relative; 
+				
+			} 
+			
+			.inputfield i{ 
+				position: absolute; 
+				left: 85px; 
+				top: 20px; 
+				color: grey;
+			} 
+
+	input[type=text]{
+		width: 80%;
+		padding: 12px 45px;
+		margin: 8px 0;
+		border: 1px solid #babcbf;
+		border-radius:40px;
+	}
+	body{
+		font-family:Arial;
+	}
+	input[type=submit]{
+		width: 10%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		color:#313945;
+		border:1px solid #ffffff;
+		background-color:#e0e0dc;
+	}
+	#links{
+		text-align:right;
+		padding-right:10px;
+	}
+	</style>
+</head>
+<body><br>
+<div id="links">
+<a href="index.html">Google Search</a>&nbsp&nbsp
+<a href="googleadvsearch.html">Google Advance Search</a>
+</div>
+<center>
+	<br><br><br><br><br><br><br>
+	<img src="googleimg1.png">
+	<br><br>
+	<form action="http://images.google.com/search">
+		<div class="inputfield"> 
+				<input type="hidden" name="tbm" value="isch">
+				<input style="border-radius:20px;height=:25px" type="text" name="q">
+				
+				<a href="">
+				<i style="padding-left:3px" class="fa fa-camera"></i>
+				</a>
+			</div>
+			<br>
+            <input class="submit" type="submit" value="Google Search"/>&nbsp
+			<input class="submit" type="submit" value="I'm Feeling Lucky"/>
+	</form>
+</center>
+</body>
+</html>
